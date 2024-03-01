@@ -1,16 +1,13 @@
 # flutterwebgorouter
 
-A new Flutter project.
+steps of integrate go_router plugin, that solves page routing, Deep link and browse history issue 
 
-## Getting Started
+step-1 install the plugin in app go_router: ^13.2.0
 
-This project is a starting point for a Flutter application.
+step-2 import 'package:go_router/go_router.dart';
 
-A few resources to get you started if this is your first Flutter project:
+step-3 create instance of GoRouter and define initial page and other pages in routes
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+step-4 pass this GoRouter instance in routerConfig of material.router 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+you get latest version from here https://pub.dev/packages/go_router
